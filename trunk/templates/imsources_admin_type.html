@@ -1,0 +1,14 @@
+<{if $imsources_type_title}>
+	<h1><{$imsources_type_title}></h1>
+<{/if}>
+<{if $imsources_type_info}>
+	<p><{$imsources_type_info}></p>
+<{/if}>
+
+<{if $imsources_type_table}>
+	<{$imsources_type_table}>
+<{/if}>
+
+<{if $addtype}>
+	<{includeq file='db:system_common_form.html' form=$addtype}>
+<{/if}>

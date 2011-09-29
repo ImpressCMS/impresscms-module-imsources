@@ -1,0 +1,20 @@
+/**
+* Install information
+*
+* @copyright	
+* @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
+* @since		1.0
+* @author		MekDrop <i.know@mekdrop.name>
+* @package		imsources
+* @version		$Id$
+*/
+
+How to install imSources
+=============================
+
+imSources is installed as a regular ImpressCMS module, which means you should copy the complete /imsources folder into the /modules directory of your website. Then, log in to your site as administrator, go to System Admin > Modules, look for the imSources icon in the list of uninstalled modules and click in the install icon. Follow the directions in the screen and you'll be ready to go.
+
+
+.:: The SmartFactory ::.
+.:: Open Source : smartfactory.ca ::.
+.:: Professionnal : inboxinternational.com ::.

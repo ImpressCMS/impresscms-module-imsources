@@ -1,0 +1,14 @@
+<{if $imsources_exporter_title}>
+	<h1><{$imsources_exporter_title}></h1>
+<{/if}>
+<{if $imsources_exporter_info}>
+	<p><{$imsources_exporter_info}></p>
+<{/if}>
+
+<{if $imsources_exporter_table}>
+	<{$imsources_exporter_table}>
+<{/if}>
+
+<{if $addexporter}>
+	<{includeq file='db:system_common_form.html' form=$addexporter}>
+<{/if}>
